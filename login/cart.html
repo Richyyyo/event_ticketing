@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Ticketing System</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c2f9ad244.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo"><h2>ETS</h2></div>
+        <div class="nav">
+            <ul>
+                <li><a href="/login/index.html">Home</a></li>
+                <li><a href="/login/events.html">Events</a></li>
+                <li><a href="/login/about.html">About</a></li>
+                <li><a href="/login/contact.html">Contact</a></li>
+                <li><a href="/login/view-order.php">My Orders</a></li>
+            </ul>
+        </div>
+        <div class="user">
+            <a href="/login/index.html"><i class="fa-solid fa-user"></i></a>
+            <a href="/login/cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="/login/index.html"><i class="fa-solid fa-right-from-bracket"></i></a>
+        </div>
+    </header>
+    <div class="parnt">
+    <div id="cart">
+        <h2>Your Shopping Cart!</h2>
+        <div id="cart-container">
+            <div class="cart">
+                <div class="cart-content">
+                <!--    <div class="cart-box">
+                        <img src="/images/event1.webp" alt="" class="cart-img">
+                        <div class="cart-detail">
+                            <h3 class="cart-event-title">Jazz Night</h3>
+                            <span class="cart-price">$35</span>
+                            <div class="cart-quantity">
+                                <button id="decrement">-</button>
+                                <span class="number">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-trash"></i>
+                    </div> -->
+                </div>
+                <div class="cart-total">
+                    <p id="cartTotal">Total with Tax</p>
+                    <p id="cartTotalPrice">$0</p>
+                </div>
+                <div class="cart-btn">
+                    <button class="checkout">Checkout</button>
+                    <button id="cancel">Cancel</button>
+                </div>
+            </div>
+        </div> 
+            
+    </div>
+    
+    </div>
+    <footer>
+        <p>&copy; Richyy @ 2025</p>
+    </footer>
+    <script src="/js/cart.js" defer></script>
+</body>
+</html>
